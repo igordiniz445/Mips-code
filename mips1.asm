@@ -1,3 +1,11 @@
+#Exercício 3 : 
+# Autor: Igor Otávio C. Diniz
+# Data: 02/11/18
+# Descrição: Escreva um programa que calcule e imprima o produto de números pares até n.
+# Entrada: Numero inteiro para calcular o produto dos pares
+# Output: Produto dos numero pares até n
+#
+
 li $v0, 5		# read and int from the user
 syscall 		# call the system
 move $t1, $v0		# saves the input into T1
